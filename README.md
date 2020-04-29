@@ -1,7 +1,7 @@
 # NoSql-homework
 
 This is a workout tracker, it can tract the progress you are making in qll
-of yoiu workouts, it utilizes such amazing tech as follows you fat fuck!!!
+of yoiu workouts, it utilizes such amazing tech as follows!!!
 
 
 # tech used!!
