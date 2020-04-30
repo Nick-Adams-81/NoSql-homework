@@ -7,10 +7,6 @@ const PORT = process.env.PORT || 9000
 
 const app = express()
 
-//Setting up mongoose models
-const Workout = require("./models/workout")
-
-
 //Express setup
 app.use(logger("dev"))
 app.use(express.urlencoded({ extend: true }))
@@ -18,7 +14,7 @@ app.use(express.json())
 
 app.use(express.static("public"))
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds343127.mlab.com:43127/heroku_jpgbf6pb", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
